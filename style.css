@@ -1,0 +1,875 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Exo", sans-serif;
+    color: #022333;
+}
+
+.container {
+    margin-top: 120px;
+
+    display: flex;
+    width: 100%;
+    height: 130vh;
+    /* background-color: rebeccapurple; */
+}
+
+.award {
+    font-family: Exo;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FE5F0D;
+}
+
+.left {
+    padding: 100px;
+    width: 599px;
+    height: 204px;
+    align-items: center;
+}
+
+.right {
+    padding: 60px;
+    width: 599px;
+    height: 204px;
+    align-items: center;
+}
+
+.right img {
+    width: 513px;
+    height: 647px;
+}
+
+h1 {
+    font-size: 49px;
+    color: #022333;
+}
+
+.left img {
+    margin-top: 30px;
+}
+
+.container2>h1 {
+    width: 100%;
+    text-align: center;
+}
+
+/* Top head starts from here */
+
+.tophead {
+    width: 100%;
+    height: 70px;
+    background-color: #FE5F0D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-head {
+    width: 50%;
+    display: flex;
+    margin-left: 45px;
+    gap: 20px;
+}
+
+span {
+    color: white;
+    font-size: 15px;
+
+}
+
+.right-head {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.right-head>.icons>img {
+    margin-right: 40px;
+}
+
+.left-head img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Top head completed here*/
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* nav bar starts from here*/
+.nav {
+    display: flex;
+    width: 100%;
+}
+
+.nav-left {
+
+    width: 17%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.nav-left img {
+    margin-top: 20px;
+}
+
+.nav-right {
+    width: 83%;
+    display: flex;
+    position: relative;
+    top: 30px;
+    height: 67px;
+    align-items: center;
+}
+
+.nav-right ul li {
+    list-style: none;
+}
+
+.nav-right ul {
+    display: flex;
+    gap: 110px;
+    margin-left: 130px;
+
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: #022333;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.logo img {
+
+    height: 125px;
+}
+
+.nav-btn button {
+    width: 174px;
+    height: 61px;
+    margin-left: 82px;
+    background-color: #FE5F0D;
+    color: white;
+    font-size: 15px;
+    border-radius: 61px;
+    border: none;
+}
+
+/* nav bar ends here */
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* Hero Section starts here */
+
+.hero {
+    height: 40vw;
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+
+.hero-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 83px;
+}
+
+.hero-right {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.hero-img img {
+    height: 550px;
+}
+
+.hero-left span {
+    font-size: 49px;
+    background-color: #FE5F0D;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.hero-left h1 {
+    font-size: 49px;
+}
+
+.hero-text {
+    width: 518px;
+    margin-left: 60px;
+}
+
+.hero-btn button {
+    background-color: #FE5F0D;
+    color: white;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Hero Section Ends Here */
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* Review Section Starts Here */
+
+.review-sect {
+
+    margin-top: 100px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.small-headings h5 {
+
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #FE5F0D;
+    font-weight: 700;
+}
+
+.small-headings h2 {
+
+    display: flex;
+    justify-content: center;
+    font-size: 49px;
+    color: #022333;
+    font-weight: 700;
+    position: relative;
+}
+
+.review-img img {
+
+    height: 560px;
+    position: relative;
+    left: 14.7%;
+    margin-top: 55px;
+}
+
+/* Review Section Ends Here */
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+/* Services Section starts here */
+.whole-service {
+
+    height: 80vh;
+    background-color: #F6F6F6;
+}
+
+.services {
+
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.service {
+
+    margin-top: 50px;
+}
+
+.service-left {
+
+    width: 33.3333333333%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-left p {
+
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
+    width: 320px;
+}
+
+.service-left h2 {
+
+    padding-top: 10px;
+    text-align: center;
+    width: 320px;
+    font-size: 36px;
+}
+
+.service-mid p {
+
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
+    width: 330px;
+}
+
+.service-mid h2 {
+
+    padding-top: 10px;
+    text-align: center;
+    width: 320px;
+    font-size: 36px;
+}
+
+.service-right p {
+
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
+    width: 320px;
+}
+
+.service-right h2 {
+
+    padding-top: 10px;
+    text-align: center;
+    width: 320px;
+    font-size: 36px;
+}
+
+.service-mid {
+
+    width: 33.3333333333%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-right {
+
+    width: 33.3333333333%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Services Section Ends here */
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* Random Section # 1 Starts from here  */
+
+.random-1 {
+
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    position: relative;
+}
+
+.random-left {
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.rect-img img {
+
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    left: 100px;
+}
+
+.random-img img {
+
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+
+.random-right {
+
+    width: 50%;
+    height: 90.5vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.random-1-popup h3 {
+
+    margin-top: 40px;
+
+    color: #FE5F0D;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.random-1-heading {
+
+    width: 312px;
+}
+
+.random-right>p {
+
+    font-size: 20px;
+    width: 590px;
+    margin-top: 30px;
+}
+
+.random-1-heading>h2 {
+
+    font-size: 40px;
+    width: 550px;
+    margin-top: 30px;
+}
+
+.random-1-btn button {
+
+    background-color: #FE5F0D;
+    color: white;
+    font-weight: 700;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+/* Random Section # 1 Ends here  */
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* Choose Section Starts from here */
+
+.choose {
+    margin-top: 120px;
+    background-color: #F6F6F6;
+    height: 90vh;
+    width: 100%;
+}
+
+.choose-heading h2 {
+    height: 30px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.choose-para p {
+    text-align: center;
+
+}
+
+.choose-para {
+    width: 1000px;
+    margin: auto;
+}
+
+.choose-boxes {
+    margin-top: 40px;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.choose-left {
+    background-color: #f9f9f9;
+    border: 2px solid black;
+    width: 26%;
+    height: 50.2vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 5% 22%;
+}
+
+.choose-left p {
+    width: 320px;
+    margin-top: 19px;
+    margin-left: 7px;
+}
+
+.choose-left h2 {
+    margin-top: 19px;
+    margin-left: 7px;
+}
+
+.choose-mid {
+    background-color: #f6f6f6;
+    width: 26%;
+    height: 50.2vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 5% 22%;
+}
+
+.choose-mid p {
+    width: 320px;
+    margin-top: 19px;
+    margin-left: 7px;
+}
+
+.choose-mid h2 {
+    margin-top: 19px;
+    margin-left: 7px;
+}
+
+.choose-right {
+    background-color: #FE5F0D;
+    width: 26%;
+    height: 50.2vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 5% 22%;
+    border: 2px solid black;
+}
+
+.choose-right p {
+    width: 320px;
+    margin-top: 19px;
+    margin-left: 7px;
+}
+
+.choose-right h2 {
+    margin-top: 19px;
+    margin-left: 7px;
+}
+
+/* Choose Section Ends here  */
+
+/* ----------------------------------------------------------------------------------- */
+
+/* B-and-A-projects Section starts from here */
+
+.B-A-projects {
+
+    margin-top: 80px;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 150vh;
+
+
+}
+
+.B-A-projctes-heading h1 {
+    text-align: center;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.B-A-projctes-container {
+    margin-top: 50px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.BA-projects-left {
+
+    width: 50%;
+    height: 110vh;
+}
+
+.BA-projects-left-img img {
+    position: absolute;
+    border: 2px solid black;
+    width: 530px;
+    height: 640px;
+    left: 125px;
+    top: 107px;
+
+}
+
+.BA-projects-left-rect img {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+}
+
+.BA-projects-right {
+    width: 50%;
+}
+
+.BA-projects-right-img img {
+    width: 530px;
+    height: 640px;
+    margin-left: 50px;
+    top: 107px;
+    position: absolute;
+    border: 2px solid black;
+
+}
+
+.BA-projects-right-rect img {
+    position: relative;
+    left: 510px;
+    top: 368px;
+}
+
+/* B-and-A-projects Section Ends here */
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Sign-Up Section Starts From here */
+
+.sign-up {
+    height: 50vh;
+    background-color: #0073AD;
+    width: 85%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 120px;
+
+}
+
+.car-img img {
+    height: 380px;
+}
+
+.sign-up-left {
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+    width: 40%;
+
+}
+
+.sign-up-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.sign-up-right h2 {
+    margin-top: 15px;
+    font-size: 39px;
+    width: 600px;
+    color: white;
+    font-weight: 700;
+}
+
+.sign-up-right p {
+    font-size: 18px;
+    color: white;
+    width: 700px;
+}
+
+.sign-up-btn button {
+    color: #0073AD;
+    font-size: 25px;
+    width: 220px;
+    height: 60px;
+}
+
+/* Sign-Up Section Ends here */
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* Process Section Starts From Here */
+
+
+.process {
+    width: 100%;
+    height: 100vh;
+}
+
+.process-popup h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: #FE5F0D;
+    font-weight: 700;
+}
+
+.process-heading h2 {
+    height: 30px;
+    text-align: center;
+    font-size: 49px;
+}
+
+.process-content {
+    max-width: 100%;
+    margin-top: 70px;
+    display: flex;
+
+}
+
+.process-left {
+    height: 80vh;
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+}
+
+.s h2 {
+    margin-top: 70px;
+    text-align: right;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.s p {
+    justify-content: end;
+    width: 323px;
+    margin-left: 194px;
+    text-align: left;
+    display: flex;
+}
+
+.process-mid {
+    width: 33.33333%;
+}
+
+.process-mid img {
+    height: 540px;
+}
+
+.process-right {
+    height: 80vh;
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Process Section Ends Here */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* Footer Section Starts from here */
+
+footer {
+    margin-top: 100px;
+    height: 470px;
+    background-color: #022333;
+    width: 100%;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-1 {
+    padding: 5%;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-2 {
+    width: 15%;
+}
+
+.footer-3 {
+    width: 15%;
+}
+
+.footer-4 {
+    width: 30%;
+}
+
+.footer-1 img {
+    height: 130px;
+    width: 130px;
+    display: flex;
+
+}
+
+.footer-1 p {
+    color: white;
+    margin-top: 30px;
+}
+
+.footer-1 h2 {
+
+    margin-top: 20px;
+}
+
+.footer-social {
+    margin-top: 20px;
+    gap: 16px;
+    display: flex;
+}
+
+.footer-social img {
+    height: 50px;
+    width: 50px;
+}
+
+.f h2 {
+    margin-top: 35%;
+    margin-left: 14%;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.f ul li {
+    list-style: none;
+    margin-left: 31px;
+    color: white;
+
+}
+
+.footer-list ul {
+    margin-top: 4px;
+}
+
+.footer-contact h2 {
+    margin-top: 18%;
+    margin-left: 14%;
+    color: white;
+    font-size: 25px;
+}
+
+.footer-contact p {
+    width: 308px;
+    margin-left: 14.5%;
+    margin-top: 5px;
+    color: white;
+}
+
+.m {
+    display: flex;
+    margin-left: 14.5%;
+    gap: 17px;
+    margin-top: 25px;
+
+}
+
+.m p {
+    color: white;
+}
+
+/* Footer Section Ends here */
