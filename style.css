@@ -159,6 +159,8 @@ svg {
 
     .nav {
         width: 96vw;
+        height: 10vh;
+        margin-top: 5vh;
     }
 
     .nav-btn {
@@ -167,7 +169,7 @@ svg {
 
     .nav-links svg {
         display: block;
-        height: 60px;
+        height: 45px;
     }
 
     .nav-links ul {
@@ -183,7 +185,7 @@ svg {
 
 .hero {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
 }
 
@@ -195,7 +197,7 @@ svg {
     gap: 2.5vh;
     margin: 0 auto;
     margin-left: 8vw;
-    height: 60vh;
+    height: 50vh;
 
 
 }
@@ -239,7 +241,7 @@ svg {
     .hero {
         display: flex;
         flex-direction: column;
-        height: 110vh;
+        height: 85vh;
     }
 
     .hero-left {
@@ -259,7 +261,8 @@ svg {
     }
 
     .hero-right img {
-        width: 100vw;
+        width: 80vw;
+        margin-left: 10vw;
     }
 }
 
@@ -268,9 +271,10 @@ svg {
 /* Services Start ------------------------------------------------------ */
 
 .services {
-    height: 90vh;
+    height: 70vh;
     background-color: rgba(249, 249, 249, 1);
     width: 100vw;
+    margin-top: 13vh;
 }
 
 .services-header {
@@ -285,7 +289,7 @@ svg {
 }
 
 .services-Headline h1 {
-    font-size: 46px;
+    font-size: 3.2vw;
 }
 
 .services-container {
@@ -303,7 +307,8 @@ svg {
     justify-content: space-evenly;
     align-items: center;
     width: 30vw;
-    height: 38vh;
+    height: 33vh;
+    margin-top: 3vh;
 }
 
 .box p {
@@ -318,6 +323,10 @@ svg {
 
 @media (max-width:600px) {
 
+    .services{
+        margin-top: 0px;
+    }
+
     .services-container {
         width: 100vw;
         justify-content: center;
@@ -326,6 +335,10 @@ svg {
         height: 120vh;
         flex-direction: column;
         gap: 2vw;
+    }
+
+    .services h1{
+        font-size: 8vw;
     }
 
     .box {
@@ -354,14 +367,14 @@ svg {
 }
 
 .random-1-left {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .random-1-left img {
-    height: 50vh;
+    width: 45vw;
 }
 
 .random-1-right {
@@ -379,11 +392,15 @@ svg {
 
 .random-1-right h1 {
     margin-left: 4vw;
-    width: 40vw;
-    font-size: 2.8vw;
+    width: 45vw;
+    font-size: 3.2vw;
+}
+.random-1-right h3{
+    font-size: 30px;
 }
 
 .random-1-right p {
+    
     margin-left: 4vw;
     width: 40vw;
 }
@@ -403,7 +420,7 @@ svg {
 
     .random-1 {
         height: 100vh;
-        margin-top: 50vh;
+        margin-top: 60vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -417,7 +434,8 @@ svg {
     }
 
     .random-1-left img {
-        height: 33vh;
+        margin-top: 5vh;
+        width: 90vw;
     }
 
     .random-1-right {
@@ -429,15 +447,15 @@ svg {
     }
 
     .random-1-right h3 {
-        font-size: 5vw;
+        font-size: 30px;
         margin-left: 4vw;
         color: rgba(254, 95, 13, 1);
     }
 
     .random-1-right h1 {
         margin-left: 4vw;
-        width: 90vw;
-        font-size: 7vw;
+        width: 93vw;
+        font-size: 8vw;
     }
 
     .random-1-right p {
@@ -461,3 +479,14 @@ svg {
 
 
 /* Random #01 End ------------------------------------------------------ */
+
+/* Choose Section Starts------------------------------------------------------  */
+
+.choose{
+    height: ;
+}
+
+
+
+
+/* Choose Section Ends------------------------------------------------------  */
