@@ -582,7 +582,7 @@ svg {
 @media (max-width: 750px) {
 
     .choose{
-        margin-top: 6vh;
+        margin-top: 9vh;
         height: 170vh;
     }
     .choose-header h1{
