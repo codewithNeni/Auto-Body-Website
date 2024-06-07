@@ -341,7 +341,7 @@ svg {
         align-items: center;
         display: flex;
         margin-top: 7vh;
-        height: 95vh;
+        height: 105vh;
         flex-direction: column;
         background-color: rgba(249, 249, 249, 1);
         gap: 2vw;
@@ -357,7 +357,7 @@ svg {
         justify-content: space-around;
         align-items: center;
         width: 100vw;
-        height: 85vh;
+        height: 90vh;
     }
 
     .box p {
