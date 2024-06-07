@@ -284,7 +284,7 @@ svg {
 }
 
 .services-popup h3 {
-    font-size: 30px;
+    font-size: 22px;
     color: rgba(254, 95, 13, 1);
 }
 
@@ -398,7 +398,7 @@ svg {
     font-size: 3.2vw;
 }
 .random-1-right h3{
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .random-1-right p {
@@ -421,7 +421,7 @@ svg {
 @media (max-width:600px) {
 
     .random-1 {
-        height: 100vh;
+        height: 115vh; 
         margin-top: 60vh;
         width: 100vw;
         display: flex;
@@ -449,7 +449,7 @@ svg {
     }
 
     .random-1-right h3 {
-        font-size: 30px;
+        font-size: 22px;
         margin-left: 4vw;
         color: rgba(254, 95, 13, 1);
     }
@@ -535,10 +535,15 @@ svg {
     width: 7vw;
 }
 
-@media (max-width: 600px) {
+.choose-end-box{
+    background-color: rgba(254, 95, 13, 1);
+}
+
+@media (max-width: 750px) {
 
     .choose{
-        height: 160vh;
+        margin-top: 6vh;
+        height: 170vh;
     }
     .choose-header h1{
         font-size: 8vw;
@@ -554,7 +559,7 @@ svg {
         width: 90vw;
         margin: auto;
         margin-top: 7vh;
-        height: 130vh;
+        height: 140vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -565,11 +570,11 @@ svg {
         height: 40vh;
         border: 1px solid rgba(0, 0, 0, 0.18);
         border-radius: 20px;
-        width: 90vw;
+        width: 85vw;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-left: 2vw;
+        padding: 4.5vw;
     }
 
     .choose-box h1{
