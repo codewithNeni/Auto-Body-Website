@@ -279,7 +279,7 @@ svg {
     height: 80vh;
     background-color: rgba(249, 249, 249, 1);
     width: 100vw;
-    /* margin-top: vh; */
+    margin-top: 4vh;
 }
 
 .services-header {
@@ -330,8 +330,7 @@ svg {
 @media (max-width:600px) {
 
     .services{
-        height: 119vh;
-        background-color: rebeccapurple;
+        height: 110vh;
 
     }
 
@@ -447,8 +446,8 @@ svg {
 
     .random-1 {
         height: 100vh; 
-        margin-top: 60vh;
-        width: 50vw;
+        /* margin-top: 60vh; */
+        width: 100vw;
         display: flex;
         flex-direction: column;
     }
@@ -463,6 +462,7 @@ svg {
     .random-1-left img {
         margin-top: 5vh;
         width: 90vw;
+        margin-left: 50vw;
     }
 
     .random-1-right {
@@ -505,6 +505,10 @@ svg {
 }
 
 @media (min-width:600px) and (max-width:850px) {
+
+    .services{
+        margin-top: 47vh;
+    }
 
     .random-1{
         height: 70vh;
