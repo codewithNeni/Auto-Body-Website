@@ -7,7 +7,7 @@ body {
     font-family: "Exo", sans-serif;
     color: rgba(2, 35, 51, 1);
     overflow-x: hidden;
-    height: 10000vh;
+    /* height: 10000vh; */
 }
 
 /* top bar Start ------------------------------------------------------ */
